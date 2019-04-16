@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8">
+       <meta name= "viewport" content="width=device-width, initial-scale=1">
+       <title> Hangman game </title>
+       <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+       <link rel="stylesheet" href="Hangman.css">
+       
+    </head>
+    <body>
+        
+    <!-- wrapper starts here -->
+        <div class="wrapper">   
+  
+        <div class="game">  
+            <h1>Hangman</h1>           
+             <div class="Inst" >
+                <p id="catagoryName"></p>
+                <div id="hold"></div>
+                <p id="mylives"></p>
+                <p id="clue">Clue:- </p>
+              </div>
+                <canvas id="stickman"
+                >This Text will show if the Browser does NOT support HTML5 Canvas
+                tag
+                </canvas>
+                <div id="buttons"></div>
+                                <div class="container">
+                <button id="hint">Hint</button> <button id="reset">Play again</button>
+                <div id="score">
+                  <p class="wins">Wins: <span class="wins" id="wins"></span></p>
+                  <p class="losses">Losses: <span class="losses" id="losses"></span></p>
+                </div>
+              </div>
+           </div>  
+           
+      <!-- footer -->
+            <footer class="main-footer">
+                <p>copyright &copy; | Deepa Bhujel Thapa</p>
+            </footer>
+       
+         </div>   
+         <!-- wrapper ends here -->   
+         <script src="Hangman.js"></script>   
+    </body>
+</html>
